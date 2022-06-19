@@ -1,0 +1,9 @@
+{
+  "name": "phamminhdao",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Pham Minh Dao <daopm.dean@gmail.com>",
+  "scripts": {
+    "deploy": "firebase deploy --only hosting"
+  }
+}
