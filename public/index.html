@@ -18,7 +18,7 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap Icons-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css"
       rel="stylesheet"
     />
     <!-- Font Awesome icons (free version)-->
@@ -412,8 +412,7 @@
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-4 text-center mb-5 mb-lg-0">
-            <i class="bi-phone fs-2 mb-3 text-muted"></i>
-            <div>(+84) 36-8888-100</div>
+            <i class="bi-envelope-heart fs-2 mb-3 text-muted"></i>
             <br />
             <div>
               <a
@@ -421,12 +420,6 @@
                 href="https://github.com/daopmdean"
                 aria-label="Github"
                 ><i class="fab fa-github"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="https://www.facebook.com/minhdaohcmcity"
-                aria-label="Facebook"
-                ><i class="fab fa-facebook-f"></i
               ></a>
               <a
                 class="btn btn-dark btn-social mx-2"
@@ -487,7 +480,9 @@
               .then((response) => console.log("Success:", response))
               .catch((error) => console.error("Error:", error));
 
-            document.getElementById("submitSuccessMessage").classList.remove("d-none");
+            document
+              .getElementById("submitSuccessMessage")
+              .classList.remove("d-none");
             document.getElementById("submitButton").classList.add("disabled");
             document.getElementById("email").setAttribute("disabled", "true");
             document.getElementById("name").setAttribute("disabled", "true");
