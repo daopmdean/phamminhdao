@@ -3,7 +3,7 @@
     https://startbootstrap.com/theme/creative 
 -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -453,7 +453,8 @@
                 <div class="text-center mb-3">
                   <div class="fw-bolder">Thanks — message sent!</div>
                   If you don’t hear back soon, email me at
-                  <a href="mailto:daopm.dean@gmail.com">daopm.dean@gmail.com</a>.
+                  <a href="mailto:daopm.dean@gmail.com">daopm.dean@gmail.com</a
+                  >.
                 </div>
               </div>
               <!-- Submit error message-->
@@ -463,7 +464,8 @@
               <div class="d-none" id="submitErrorMessage">
                 <div class="text-center text-danger mb-3">
                   Couldn’t send your message. Please try again, or email
-                  <a href="mailto:daopm.dean@gmail.com">daopm.dean@gmail.com</a>.
+                  <a href="mailto:daopm.dean@gmail.com">daopm.dean@gmail.com</a
+                  >.
                 </div>
               </div>
               <!-- Submit Button-->
@@ -477,26 +479,6 @@
                 </button>
               </div>
             </form>
-          </div>
-        </div>
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-4 text-center mb-5 mb-lg-0">
-            <i class="bi-envelope-heart fs-2 mb-3 text-muted"></i>
-            <br />
-            <div>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="https://github.com/daopmdean"
-                aria-label="Github"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="https://www.linkedin.com/in/daopmdean"
-                aria-label="LinkedIn"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
           </div>
         </div>
       </div>
@@ -560,13 +542,17 @@
             message: messageInput.value.trim(),
           };
 
-          nameInput.setCustomValidity(trimmed.name ? "" : "Please enter your name.");
-          emailInput.setCustomValidity(trimmed.email ? "" : "Please enter your email.");
+          nameInput.setCustomValidity(
+            trimmed.name ? "" : "Please enter your name.",
+          );
+          emailInput.setCustomValidity(
+            trimmed.email ? "" : "Please enter your email.",
+          );
           phoneInput.setCustomValidity(
-            trimmed.phone ? "" : "Please enter your phone number."
+            trimmed.phone ? "" : "Please enter your phone number.",
           );
           messageInput.setCustomValidity(
-            trimmed.message ? "" : "Please enter a message."
+            trimmed.message ? "" : "Please enter a message.",
           );
         };
 
@@ -601,7 +587,7 @@
               body: JSON.stringify(formData),
               headers: { "Content-Type": "application/json" },
               mode: "no-cors",
-            }
+            },
           )
             .then(() => {
               successMessage.classList.remove("d-none");
