@@ -1,8 +1,8 @@
 # phamminhdao.com
 
-## Infomation
+## Information
 
-Using available theme template on: https://startbootstrap.com/theme/creative 
+Using available theme template on: https://startbootstrap.com/theme/creative
 
 ## Data storage
 
@@ -64,4 +64,10 @@ firebase login
 Make a deployment
 ```
 firebase deploy --only hosting:pham-minh-dao
+```
+
+## running local
+
+```
+npx http-server public -p 5173
 ```

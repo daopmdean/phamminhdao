@@ -11,9 +11,18 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta
+      name="description"
+      content="Pham Minh Dao — Software Engineer focused on building reliable web and mobile applications."
+    />
+    <meta name="author" content="Pham Minh Dao" />
     <title>Pham Minh Dao</title>
+    <meta property="og:title" content="Pham Minh Dao" />
+    <meta
+      property="og:description"
+      content="Software Engineer focused on building reliable web and mobile applications."
+    />
+    <meta property="og:type" content="website" />
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap Icons-->
@@ -75,6 +84,16 @@
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://docs.google.com/document/d/10u8nYI9aVYUP-mbOznp3EzXaO1rnXsiHHzEXgEv-sIc/export?format=pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -88,17 +107,26 @@
           class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
         >
           <div class="col-lg-8 align-self-end">
-            <h1 class="text-white font-weight-bold">WELCOME TO MY SITE</h1>
+            <h1 class="text-white font-weight-bold">Software Engineer</h1>
             <hr class="divider" />
-            <h2 class="text-white font-weight-bold">phamminhdao.com</h2>
+            <h2 class="text-white font-weight-bold">
+              Building reliable web &amp; mobile products
+            </h2>
           </div>
           <!-- <div class="col-lg-8 align-self-end">
                         <h2 class="text-white font-weight-bold">phamminhdao.com</h2>
                         <hr class="divider" />
                     </div> -->
           <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 mb-5">Software Developer</p>
-            <a class="btn btn-primary btn-xl" href="#about">Tell Me More</a>
+            <p class="text-white-75 mb-5">
+              I ship clean, maintainable code and focus on measurable outcomes.
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <a class="btn btn-primary btn-xl" href="#contact">Contact Me</a>
+              <a class="btn btn-outline-light btn-xl" href="#portfolio"
+                >View Projects</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -111,9 +139,9 @@
             <h2 class="text-white mt-0">Few words about me!</h2>
             <hr class="divider divider-light" />
             <p class="text-white-75 mb-4">
-              I am a Software Engineer and a Golang enthusiast , striving to
-              deliver high quality, fully tested code and aim to become a
-              professional developer.
+              I am a Software Engineer and a Golang enthusiast, striving to
+              deliver high quality, fully tested code and continuously improve
+              as a professional developer.
             </p>
             <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
           </div>
@@ -174,13 +202,15 @@
           <div class="col-lg-4 col-sm-6">
             <a
               class="portfolio-box"
-              href="assets/img/portfolio/fullsize/1.jpg"
+              href="https://hcmliving.com"
               title="hcmliving.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/thumbnails/1.jpg"
-                alt="..."
+                alt="hcmliving.com — real estate project"
               />
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">real estate</div>
@@ -191,13 +221,15 @@
           <div class="col-lg-4 col-sm-6">
             <a
               class="portfolio-box"
-              href="assets/img/portfolio/fullsize/2.jpg"
+              href="https://budgetflows.com"
               title="budgetflows.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/thumbnails/2.jpg"
-                alt="..."
+                alt="budgetflows.com — finance project"
               />
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">finance</div>
@@ -208,13 +240,15 @@
           <div class="col-lg-4 col-sm-6">
             <a
               class="portfolio-box"
-              href="assets/img/portfolio/fullsize/3.jpg"
+              href="https://linknuoc.com"
               title="linknuoc.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/thumbnails/3.jpg"
-                alt="..."
+                alt="linknuoc.com — utilities project"
               />
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">utilities</div>
@@ -225,13 +259,15 @@
           <div class="col-lg-4 col-sm-6">
             <a
               class="portfolio-box"
-              href="assets/img/portfolio/fullsize/4.jpg"
+              href="https://easypomo.com"
               title="easypomo.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/thumbnails/4.jpg"
-                alt="..."
+                alt="easypomo.com — productivity project"
               />
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">utilities</div>
@@ -242,34 +278,38 @@
           <div class="col-lg-4 col-sm-6">
             <a
               class="portfolio-box"
-              href="assets/img/portfolio/fullsize/5.jpg"
+              href="#portfolio"
               title="Play Store"
+              role="button"
+              aria-label="Android apps (coming soon)"
             >
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/thumbnails/5.jpg"
-                alt="..."
+                alt="Android app — Play Store"
               />
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">Android</div>
-                <div class="project-name">Play Store</div>
+                <div class="project-name">Android apps (on request)</div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a
               class="portfolio-box"
-              href="assets/img/portfolio/fullsize/6.jpg"
+              href="#portfolio"
               title="App Store"
+              role="button"
+              aria-label="iOS apps (coming soon)"
             >
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/thumbnails/6.jpg"
-                alt="..."
+                alt="iOS app — App Store"
               />
               <div class="portfolio-box-caption p-3">
                 <div class="project-category text-white-50">iOS</div>
-                <div class="project-name">App Store</div>
+                <div class="project-name">iOS apps (on request)</div>
               </div>
             </a>
           </div>
@@ -301,6 +341,27 @@
             <p class="text-muted mb-5">
               Send me a message and I will get back to you as soon as possible!
             </p>
+            <div class="d-flex justify-content-center gap-2 flex-wrap mb-4">
+              <a
+                class="btn btn-outline-dark btn-sm"
+                href="mailto:daopm.dean@gmail.com"
+                >daopm.dean@gmail.com</a
+              >
+              <a
+                class="btn btn-outline-dark btn-sm"
+                href="https://github.com/daopmdean"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+              <a
+                class="btn btn-outline-dark btn-sm"
+                href="https://www.linkedin.com/in/daopmdean"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </div>
           </div>
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
@@ -312,7 +373,11 @@
             <!-- To make this form functional, sign up at-->
             <!-- https://startbootstrap.com/solution/contact-forms-->
             <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <form
+              id="contactForm"
+              data-sb-form-api-token="API_TOKEN"
+              novalidate
+            >
               <!-- Name input-->
               <div class="form-floating mb-3">
                 <input
@@ -321,6 +386,7 @@
                   type="text"
                   placeholder="Enter your name..."
                   data-sb-validations="required"
+                  required
                 />
                 <label for="name">Full name</label>
                 <div class="invalid-feedback" data-sb-feedback="name:required">
@@ -335,6 +401,7 @@
                   type="email"
                   placeholder="name@example.com"
                   data-sb-validations="required,email"
+                  required
                 />
                 <label for="email">Email address</label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">
@@ -352,6 +419,7 @@
                   type="tel"
                   placeholder="(123) 456-7890"
                   data-sb-validations="required"
+                  required
                 />
                 <label for="phone">Phone number</label>
                 <div class="invalid-feedback" data-sb-feedback="phone:required">
@@ -367,6 +435,7 @@
                   placeholder="Enter your message here..."
                   style="height: 10rem"
                   data-sb-validations="required"
+                  required
                 ></textarea>
                 <label for="message">Message</label>
                 <div
@@ -382,10 +451,9 @@
               <!-- has successfully submitted-->
               <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center mb-3">
-                  <div class="fw-bolder">Form submission successful!</div>
-                  To get quick response, contact
-                  <br />
-                  daopm.dean@gmail.com
+                  <div class="fw-bolder">Thanks — message sent!</div>
+                  If you don’t hear back soon, email me at
+                  <a href="mailto:daopm.dean@gmail.com">daopm.dean@gmail.com</a>.
                 </div>
               </div>
               <!-- Submit error message-->
@@ -394,7 +462,8 @@
               <!-- an error submitting the form-->
               <div class="d-none" id="submitErrorMessage">
                 <div class="text-center text-danger mb-3">
-                  Error sending message!
+                  Couldn’t send your message. Please try again, or email
+                  <a href="mailto:daopm.dean@gmail.com">daopm.dean@gmail.com</a>.
                 </div>
               </div>
               <!-- Submit Button-->
@@ -437,7 +506,7 @@
     <footer class="bg-light py-5">
       <div class="container px-4 px-lg-5">
         <div class="small text-center text-muted">
-          Copyright &copy; 2022 - Pham Minh Dao.
+          Copyright &copy; 2022–2026 - Pham Minh Dao.
         </div>
       </div>
     </footer>
@@ -456,39 +525,97 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        document
-          .getElementById("contactForm")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
+        const form = document.getElementById("contactForm");
+        const submitButton = document.getElementById("submitButton");
+        const successMessage = document.getElementById("submitSuccessMessage");
+        const errorMessage = document.getElementById("submitErrorMessage");
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const phoneInput = document.getElementById("phone");
+        const messageInput = document.getElementById("message");
 
-            var formData = {
-              name: document.getElementById("name").value,
-              email: document.getElementById("email").value,
-              phone: document.getElementById("phone").value,
-              message: document.getElementById("message").value,
-            };
+        if (
+          !form ||
+          !submitButton ||
+          !successMessage ||
+          !errorMessage ||
+          !nameInput ||
+          !emailInput ||
+          !phoneInput ||
+          !messageInput
+        )
+          return;
 
-            fetch(
-              "https://script.google.com/macros/s/AKfycbzmU7fzQA4WtLGYv68uRG3X_1KAUm20tVFF0dX29whczrqf2HSPD1WZoWiFDvtgvMs/exec",
-              {
-                method: "POST",
-                body: JSON.stringify(formData),
-                headers: { "Content-Type": "application/json" },
-                mode: "no-cors",
-              }
-            )
-              .then((response) => console.log("Success:", response))
-              .catch((error) => console.error("Error:", error));
+        const setSubmitting = (isSubmitting) => {
+          submitButton.disabled = isSubmitting;
+          submitButton.classList.toggle("disabled", isSubmitting);
+          submitButton.textContent = isSubmitting ? "Sending..." : "Submit";
+        };
 
-            document
-              .getElementById("submitSuccessMessage")
-              .classList.remove("d-none");
-            document.getElementById("submitButton").classList.add("disabled");
-            document.getElementById("email").setAttribute("disabled", "true");
-            document.getElementById("name").setAttribute("disabled", "true");
-            document.getElementById("phone").setAttribute("disabled", "true");
-            document.getElementById("message").setAttribute("disabled", "true");
+        const setTrimRequiredValidity = () => {
+          const trimmed = {
+            name: nameInput.value.trim(),
+            email: emailInput.value.trim(),
+            phone: phoneInput.value.trim(),
+            message: messageInput.value.trim(),
+          };
+
+          nameInput.setCustomValidity(trimmed.name ? "" : "Please enter your name.");
+          emailInput.setCustomValidity(trimmed.email ? "" : "Please enter your email.");
+          phoneInput.setCustomValidity(
+            trimmed.phone ? "" : "Please enter your phone number."
+          );
+          messageInput.setCustomValidity(
+            trimmed.message ? "" : "Please enter a message."
+          );
+        };
+
+        ["input", "blur"].forEach((evt) => {
+          [nameInput, emailInput, phoneInput, messageInput].forEach((el) => {
+            el.addEventListener(evt, () => el.setCustomValidity(""));
           });
+        });
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          form.classList.add("was-validated");
+          setTrimRequiredValidity();
+          if (!form.reportValidity()) return;
+
+          successMessage.classList.add("d-none");
+          errorMessage.classList.add("d-none");
+          setSubmitting(true);
+
+          var formData = {
+            name: nameInput.value.trim(),
+            email: emailInput.value.trim(),
+            phone: phoneInput.value.trim(),
+            message: messageInput.value.trim(),
+          };
+
+          fetch(
+            "https://script.google.com/macros/s/AKfycbzmU7fzQA4WtLGYv68uRG3X_1KAUm20tVFF0dX29whczrqf2HSPD1WZoWiFDvtgvMs/exec",
+            {
+              method: "POST",
+              body: JSON.stringify(formData),
+              headers: { "Content-Type": "application/json" },
+              mode: "no-cors",
+            }
+          )
+            .then(() => {
+              successMessage.classList.remove("d-none");
+              form.reset();
+              form.classList.remove("was-validated");
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              errorMessage.classList.remove("d-none");
+            })
+            .finally(() => {
+              setSubmitting(false);
+            });
+        });
       });
     </script>
   </body>
